@@ -11,10 +11,10 @@
 * Twitter : [@pink_bangbi](https://twitter.com/pink_bangbi)
 * github  : [osyo-manga](https://github.com/osyo-manga)
 * ブログ  : [Secret Garden(Instrumental)](http://secret-garden.hatenablog.com)
-* Ruby    : Rails と戦ったり本体のパッチ書いたり
-* Vim     : 100個以上のプラグインをつくったり
-* C++     : 全くわからないけどたのしー
-* [osushi](https://osushi.love/pink_bangbi)
+* Ruby    : Rails と戦ったり本体のパッチ書いたり    <!-- .element: class="fragment" -->
+* Vim     : 100個以上のプラグインをつくったり    <!-- .element: class="fragment" -->
+* C++     : 全くわからないけどたのしー    <!-- .element: class="fragment" -->
+# [osushi](https://osushi.love/pink_bangbi)    <!-- .element: class="fragment" -->
 
 ---
 
@@ -25,29 +25,28 @@
 ## 概要
 - - -  
 
-* 参加者の受付を円滑に行いたい
-* conppas の参加者のチェックリストを出す
-* ついでに懇親会費の徴収チェックもしたい
-
+* 参加者の受付を円滑に行いたい    <!-- .element: class="fragment" -->
+* conppas の参加者のチェックリストを出す    <!-- .element: class="fragment" -->
+* ついでに懇親会費の徴収チェックもしたい    <!-- .element: class="fragment" -->
 
 ---
 
 ## やりたかったこと
 - - -
 
-* connpass から参加者の一覧を取得して表示
-* 参加者のチェックリストを出す
-* SPA(Single Page Application) + サーバサイドはなし
+* connpass から参加者の一覧を取得して表示    <!-- .element: class="fragment" -->
+* 参加者のチェックリストを出す    <!-- .element: class="fragment" -->
+* SPA(Single Page Application) + サーバサイドはなし    <!-- .element: class="fragment" -->
 
 ---
 
 ## アプリの流れ(UI)
 - - -  
 
-1. connpass の URL を入力する
-1. 参加者一覧が表示される
-1. 参加者をその参加者のクリックすると TODO（等）が表示される
-1. 全ての TODO にチェックが入ると参加者一覧から消す
+1. connpass の URL を入力する   <!-- .element: class="fragment" -->
+1. 参加者一覧が表示される        <!-- .element: class="fragment" -->
+1. 参加者をその参加者のクリックすると TODO（等）が表示される   <!-- .element: class="fragment" -->
+1. 全ての TODO にチェックが入ると参加者一覧から消す   <!-- .element: class="fragment" -->
 
 ---
 
@@ -60,11 +59,11 @@ https://osyo-manga.github.io/uketukechang/
 ## 技術的な話
 - - -
 
-* スクレイピング
+* スクレイピング        <!-- .element: class="fragment" -->
   * connpass からデータを取得する
-* レンダリング
+* レンダリング        <!-- .element: class="fragment" -->
   * SPA したい、フロントエンドで完結したい
-* テンプレートエンジン
+* テンプレートエンジン        <!-- .element: class="fragment" -->
   * gh-pages で公開したい
 
 ---
@@ -96,8 +95,8 @@ https://osyo-manga.github.io/uketukechang/
 * Ruby 製の middleman を使用
 * haml という HTML を簡単にかけるテンプレートエンジンが使える
 * ちょっと古い…
+  * 案の定、デプロイコマンドが使えなくなってた
 * なんか新しいのを使いたかったけど、調べる時間がなかったので…
-
 
 ---
 
@@ -106,8 +105,9 @@ https://osyo-manga.github.io/uketukechang/
 
 * 半年ぶりぐらいにフロントエンドを触ったけど結構忘れてつらかった
 * <del>とはいえ、なんだかんだ一晩でできた</del>できてなかった
-* 最初は最近の流行りのフレームワークとか探そうかと思ったけど探すのに時間がかかりそうなので結局以前使っていたものを使うことに…
 * 『いま○○○やるならこれ！』みたいな指標がほしい
+* まあでもこれぐらいならさくっとつくれるよねー
+* とにかく前日に慌ててつくるのはやめましょう
 
 ---
 
