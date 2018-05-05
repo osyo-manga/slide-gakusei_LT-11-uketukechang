@@ -45,7 +45,7 @@
 
 1. connpass の URL を入力する   <!-- .element: class="fragment" -->
 1. 参加者一覧が表示される        <!-- .element: class="fragment" -->
-1. 参加者をその参加者のクリックすると TODO（等）が表示される   <!-- .element: class="fragment" -->
+1. その参加者のクリックすると TODO（懇親会の徴収等）が表示される   <!-- .element: class="fragment" -->
 1. 全ての TODO にチェックが入ると参加者一覧から消す   <!-- .element: class="fragment" -->
 
 ---
